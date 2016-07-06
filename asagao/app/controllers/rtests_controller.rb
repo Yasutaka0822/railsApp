@@ -1,0 +1,2 @@
+class RtestsController < ApplicationController
+end
