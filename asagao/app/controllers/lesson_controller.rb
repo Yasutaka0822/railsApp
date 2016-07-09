@@ -62,6 +62,10 @@ class LessonController < ApplicationController
     @surface = 141.31
   end
 
+  def step13
+    @time = Time.now
+  end
+
   private
   def set_message
     @message = "hello"
