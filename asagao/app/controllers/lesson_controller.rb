@@ -66,6 +66,10 @@ class LessonController < ApplicationController
     @time = Time.now
   end
 
+  def step14
+    @population = 12345677
+  end
+
   private
   def set_message
     @message = "hello"
