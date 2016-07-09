@@ -57,6 +57,11 @@ class LessonController < ApplicationController
     @comment = "<strong>安全なHTML</strong>"
   end
 
+  def step12
+    @population = 704414
+    @surface = 141.31
+  end
+
   private
   def set_message
     @message = "hello"
