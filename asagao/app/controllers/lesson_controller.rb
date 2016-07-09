@@ -74,6 +74,13 @@ class LessonController < ApplicationController
     @zaiko =1900
   end
 
+  def step19
+    @items = { "小学校" => "共和",
+      "中学校" => "共和",
+      "高校" => "麻溝台",
+      "大学" => "神奈川"}
+  end
+
   private
   def set_message
     @message = "hello"
