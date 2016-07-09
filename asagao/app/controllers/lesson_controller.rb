@@ -70,6 +70,10 @@ class LessonController < ApplicationController
     @population = 12345677
   end
 
+  def step18
+    @zaiko =1900
+  end
+
   private
   def set_message
     @message = "hello"
