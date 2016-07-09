@@ -10,4 +10,12 @@ class LessonController < ApplicationController
   def step22
     render text: request.env["HTTP_USER_AGENT"] + request.headers["User-Agent"]
   end
+
+  def step3
+    redirect_to action: "step4"
+  end
+
+  def step4
+    render text: "move to step4"
+  end
 end
