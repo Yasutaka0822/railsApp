@@ -57,3 +57,14 @@ div#sidebar {
   padding: 5px;
   font-size: 86%;
 }
+
+
+
+/* メニューバーのリンク */
+div.menubar a { text-decoration: none; }
+
+/* メニューバーのリンク（未訪問） */
+div.menubar a:link { color: #ccc; }
+
+/* メニューバーのリンク（訪問済み） */
+div.menubar a:visited { color: #ccc; }
